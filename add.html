@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Add</title>
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="wrong.mp3" type="audio/mpeg">
+      </audio>
+    
+      <div class="container">
+     
+        <nav>
+          <!-- Top Navigation Menu -->
+        <div class="topnav">
+           <div> 
+        <h2 class="nav"><i class="fa fa-trophy" aria-hidden="true"></i> MATH KIDS QUIZ</h2>
+  <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="add.html">Add</a>
+        <a href="subtract.html">Subtract</a>
+        <a href="multiply.html">Multiply</a>
+        <a href="divide.html">Divide</a>
+      </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+         </a>
+     </div>
+    </div>
+      </nav>
+
+  </div>
+  
+      <h3 class="answer">Choose Your Answer</h3>
+      <div class="wrapper">
+          <div class="equation">
+            <h1  id="num1" style="color:#FE4A49"></h1>
+            <h1 style="color: #2AB7CA;">+</h1>
+            <h1  id="num2" style="color: #FED766">1</h1>
+            <h1  style="color: #F86624">=</h1>
+            <h1  style="color: gray">?</h1>
+          </div>
+          <div class="answer-options">
+            <div class="options" style="background-color: #FE4A49;">
+              <h1 id="option1">1</h1>
+            </div>
+            <div class="options" style="background-color: #2AB7CA;">
+              <h1 id="option2">2</h1>
+            </div>
+            <div class="options" style="background-color: #FED766;">
+              <h1 id="option3">3</h1>
+            </div>
+          </div>
+      </div>
+    
+      <script src="add.js"></script>
+</body>
+</html>
